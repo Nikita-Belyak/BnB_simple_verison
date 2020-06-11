@@ -1,5 +1,5 @@
-"""a
-    child_node_generation(parent_node::Model, var_index::Int, inequality::String, value::Int)
+"""
+    a child_node_generation(parent_node::Model, var_index::Int, inequality::String, value::Int)
 returns a child node generated from a parent_node by copying it
 and addinbg auxiliary constraint x[var_index] "<=" or ">=" value.
 
